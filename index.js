@@ -53,6 +53,6 @@ app.use(
 );
 
 const APP_PORT = process.env.PORT;
-app.listen(APP_PORT, () => {
+app.listen(APP_PORT, '::', () => {
 	console.log(`External CORS cache server started at port ${APP_PORT}`);
 });
